@@ -10,7 +10,6 @@ public class Score {
 
     public Score() {score=0; }
 
-    AllQuestions allQs = new AllQuestions();
 
     public void correctAnswer() { score += CORRECT_ANSWER; }
     public void wrongAnswer() {

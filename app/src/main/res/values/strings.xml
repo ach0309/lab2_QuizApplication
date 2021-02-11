@@ -7,10 +7,14 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="q_ready">Are you ready?</string>
-    <string name="q_22">I am 22</string>
-    <string name="q_23">I am 23</string>
-    <string name="q_add">6+2=10</string>
+    <string name="q_ready">I am ready!</string>
+    <string name="q_actFrag">An Activity may host several fragments.</string>
+    <string name="q_pause">onPause() means that activity is in the foreground.</string>
+    <string name="q_states">Activities have 4 states while Fragments have 6 states.</string>
+    <string name="q_stack">Activities are arranged in a stack.</string>
+    <string name="q_nav">Navigation graph contains actions and destinations.</string>
+    <string name="q_model">Model in MVC pattern handles the logic.</string>
+    <string name="q_intent">Intent allows communication only between components within a single activity.</string>
     <string name="initial_score">0</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
