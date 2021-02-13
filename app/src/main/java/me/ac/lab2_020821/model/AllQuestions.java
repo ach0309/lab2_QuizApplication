@@ -6,9 +6,10 @@ import me.ac.lab2_020821.R;
 public class AllQuestions {
 
 
+
     private int questionIndex;
 
-    private Question[] allQuestions = {
+    private static Question[] allQuestions = {
             new Question(R.string.q_ready, true),
             new Question(R.string.q_actFrag, true),
             new Question(R.string.q_pause, false),
@@ -19,6 +20,10 @@ public class AllQuestions {
             new Question(R.string.q_intent, false)
 
     };
+
+    public static int length(){
+        return allQuestions.length;
+    }
 
     public AllQuestions(){
         questionIndex=0;
